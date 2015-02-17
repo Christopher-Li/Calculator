@@ -9,6 +9,10 @@ src: url("calculator.ttf");
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #CFD6BA;
+}
+
 button {
 	margin-right: 0.5%;
 	margin-left: 0.5%;
@@ -35,13 +39,16 @@ button:active {
 	width: 95%;
 }
 
-.container {
+.calculator {
 	width: 350px;
 	padding-top: 5px;
 	background: -webkit-linear-gradient(#DCDCDC, #B3B3B3);
 	background: -o-linear-gradient(#DCDCDC, #B3B3B3);
 	background: -moz-linear-gradient(#DCDCDC, #B3B3B3);
 	background: linear-gradient(#DCDCDC, #B3B3B3);
+	margin: auto;
+	margin-top: 5%;
+	border:1px solid #8C8987;
 }
 
 .display {
